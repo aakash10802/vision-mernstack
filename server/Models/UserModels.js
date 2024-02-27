@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const UserSchema = mongoose.Schema({
     fullName:{
         type: String, 
-        required: [true, "Please add a full name"],
+        required: true,
     },
     email: {
         type: String,
